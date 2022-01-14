@@ -46,7 +46,7 @@ public class UserController {
         }
     }
     //update
-    @RequestMapping(method = RequestMethod.PUT, path = "{id}") //1: id
+    @RequestMapping(method = RequestMethod.PUT, path = "{id}")
     public ResponseEntity<Object> update(@PathVariable int id, @RequestBody User updateUser){
         Optional<User> optionalUser = userService.findById(id);
         if (optionalUser.isPresent()){

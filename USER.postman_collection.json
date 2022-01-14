@@ -34,7 +34,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://{{domain}}/api/v1/users/1",
+							"raw": "http://{{domain}}/api/v1/users/5",
 							"protocol": "http",
 							"host": [
 								"{{domain}}"
@@ -43,7 +43,7 @@
 								"api",
 								"v1",
 								"users",
-								"1"
+								"5"
 							]
 						}
 					},
@@ -56,7 +56,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n            \"id\" : 5,\r\n            \"name\": \"Nguyen Huong 5 update\",\r\n            \"age\": 20,\r\n            \"salary\": \"25000000\"\r\n        }",
+							"raw": "{\r\n        \r\n            \"name\": \"Nguyen Huong 5 update\",\r\n            \"age\": 20,\r\n            \"salary\": \"25000000\"\r\n        }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -64,7 +64,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://{{domain}}/api/v1/user/5",
+							"raw": "http://{{domain}}/api/v1/users/5",
 							"protocol": "http",
 							"host": [
 								"{{domain}}"
@@ -72,7 +72,7 @@
 							"path": [
 								"api",
 								"v1",
-								"user",
+								"users",
 								"5"
 							]
 						}
@@ -94,7 +94,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://{{domain}}/api/v1/users/0",
+							"raw": "http://{{domain}}/api/v1/users/5",
 							"protocol": "http",
 							"host": [
 								"{{domain}}"
@@ -103,7 +103,7 @@
 								"api",
 								"v1",
 								"users",
-								"0"
+								"5"
 							]
 						}
 					},
