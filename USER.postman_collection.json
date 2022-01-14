@@ -129,7 +129,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \r\n            \"id\" : 5,\r\n            \"name\": \"Nguyen Huong 5\",\r\n            \"age\": 20,\r\n            \"salary\": \"25000000\"\r\n        }",
+							"raw": "{\r\n    \"id\" : 5,\r\n    \"name\": \"Nguyen Huong 5\",\r\n    \"age\": 20,\r\n    \"salary\": \"25000000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
